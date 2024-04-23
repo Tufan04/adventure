@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./services.css" />
+    <link rel="stylesheet" href="./packages.css">
+    <link rel="stylesheet" href="./contact.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- header start -->
+        <special-header></special-header>
+        <!-- header end -->
+
+        <!-- first section start -->
+        <div class="firstBox">
+            <div class="imageBox"></div>
+            <h2 class="heading">Contact Us</h2>
+        </div>
+        <!-- first section end -->
+
+        <!-- main section start  -->
+        <div class="servicesBox">
+            <h5 class="servicesTitle dash">Contact Us</h5>
+            <h1 class="servicesHradingTitle">Contact For Any Query</h1>
+            <div class="contactContainer">
+                <div class="leftBox">
+                    <div class="infoBox">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="infoDet">
+                            123 ranking Street,
+                            <br />
+                            New York, USA
+                        </p>
+                    </div>
+                    <div class="infoBox">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="infoDet">
+                            <p class="infohead">Mobile</p>
+                            +012 345 67890
+                            <br />
+                            +012 345 67890
+                        </p>
+                    </div>
+                    <div class="infoBox">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="infoDet">
+                            <p class="infohead">Email</p>
+                            info@example.com
+                            <br />
+                            info@example.com
+                        </p>
+                    </div>
+                </div>
+                <div class="bookingForm rightBox">
+                    <h2 class="formHeading">Send us a message</h2>
+                    <p class="formDesc">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. Download Now.</p>
+
+                    <form class="form-wrapper">
+                        <div class="formItem">
+                            <label for="name" class="no-dropdown">Your Name</label>
+                            <input type="text" name="name" id="name" class="inputBox" autocomplete="off"
+                                spellcheck="false">
+                        </div>
+                        <div class="formItem">
+                            <label for="email" class="no-dropdown">Your Email</label>
+                            <input type="email" name="email" id="email" class="inputBox" autocomplete="off" spellcheck="false
+                                ">
+                        </div>
+                        <div class="formItem msgBox">
+                            <label for="dateAndtime" class="no-dropdown splreq">Subject</label>
+                            <input type="dateAndtime" name="dateAndtime" id="dateAndtime" class="inputBox subject specialRequestBox"
+                                autocomplete="off" spellcheck="false">
+                        </div>
+                        <div class="formItem msgBox">
+                            <label for="specialRequest" class="no-dropdown splreq">Message</label>
+                            <textarea name="specialRequest" id="specialRequest" class="inputBox specialRequestBox"
+                                spellcheck="false"></textarea>
+                        </div>
+                        <button class="bookNowBtn readMoreBtn bookNow">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- main section end  -->
+
+        <!-- newsletter and footer start  -->
+        <special-footer></special-footer>
+        <!-- newsletter and footer end -->
+
+        <script src="./index.js"></script>
+        <script src="./form.js"></script>
+
+    </div>
+</body>
+
+</html>

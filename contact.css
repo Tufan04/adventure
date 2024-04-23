@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imageBox {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(19, 53, 123, .4), rgba(19, 53, 123, .4)), url(./images/all-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.servicesBox {
+    background-color: #f2f2f2;
+}
+.contactContainer {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    color: rgb(96, 96, 96);
+}
+.leftBox{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.infoBox {
+    margin: 1.5rem;
+}
+.infoBox i{
+    font-size: 3rem;
+    padding-bottom: .5rem;
+    color: var(--bs-primary);
+}
+.infoDet {
+    line-height: 1rem;
+}
+.infohead{
+    font-size: 1.5rem;
+    margin: .5rem;
+    color: var(--bs-primary);
+}
+.rightBox {
+    width: 70%;
+}
+.formHeading{
+    color: black;
+}
+.subject {
+    width: 97%;
+    height: 4rem;
+    padding: 1.45rem;
+}
+.bookNow, .specialRequestBox{
+    width: 97%;
+}

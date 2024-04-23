@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .servicesBox {
+    background-color: #fff;
+} */
+.imageBox{
+    background-image: url(./images/image-3.jpg);
+    background-position: bottom;
+}
+
+/* package section start  */
+.packageContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.packageBox{
+    width: 31%;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+.packageImageBox{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.packageImage{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.packagePrice {
+    position: absolute;
+    z-index: 1;
+    background: var(--bs-primary) ;
+    color: #fff;
+    font-weight: 500;
+    padding: .7rem 1.2rem;    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.imageBtnSection{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .3);
+    padding: .5rem 1rem;
+    color: #fff;
+}
+.imageBtnSection::before,
+.hr-rule::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+}
+.imageBtnSection::before{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+.hr-rule::after{
+    top: 0;
+    /* left: 30%; */
+    width: 1px;
+    margin: 0 15px;
+    height: 100%;
+}
+.imageBtnSection p i{
+    padding-right: .4rem;
+    font-size: .9rem;
+}
+.packageContentBox{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+}
+.placeNames{
+    font-size: 1.25rem;
+    padding-bottom: .1rem;
+}
+.hotelDeals {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.stars {
+    font-size: .9rem;
+    color: var(--bs-primary)
+}
+.packageDesc{
+    padding-top:1rem ;
+}
+.moreBtn {
+    background-color: var(--bs-primary);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+/* package section end  */
+/* booking section start  */
+.bookingBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(19, 53, 123, .8), rgba(19, 53, 123, .8)), url(./images/tour-booking-bg.jpg);
+    color: #fff;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5rem 3rem;
+}
+.bookingContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 4rem 2rem;
+    color: #fff;
+    font-family: sans-serif;
+}
+.bookingTitle {
+    font-size: 1.25rem;
+    font-family: "Jost", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    padding: 0 1rem 0 0;
+    line-height: 1.2;
+    word-spacing: 2px;
+    color: #fff;
+}
+.bookingTitle::before{
+    border: none;
+}
+.bookingTitle::after {
+    border: 1px solid #fff;
+}
+
+
+.bookingForm {
+    width: 50%;
+}
+.formHeading {
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+.formDesc{
+    padding: 2rem 3rem 2rem 0;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+span{
+    color: #ffc107;
+}
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #fff;
+}
+.formItem {
+    width: 48%;
+    position: relative;
+    /* margin: 10px; */
+}
+.no-dropdown{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #848383;
+    transition: 0.3s;
+}
+.dropdown{
+    position: absolute;
+    top: 0.75rem;
+    left: 5%;
+    font-size: .75rem;
+    color: #848383;
+}
+.default {
+    padding-top: .5rem;
+}
+
+.inputBox {
+    width: 100%;
+    /* margin-top: 1.5rem; */
+    padding: 1.45rem;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: 0.3s;
+    font-family: sans-serif;
+}
+.dropDownBox{
+    color: #848383;
+    font-weight: 400;
+    padding: 1.45rem 0.6rem 1.25rem 0.6rem;
+}
+option{
+    margin: .5rem;
+}
+
+.focus .no-dropdown{
+    font-size: .75rem;
+    top: 20%;
+    color: #8b8b8b;
+}
+.formItem.not-empty label{
+    font-size: 0.75rem;
+    top: 0.75rem;
+    /* transform: translateY(0); */
+}
+.msgBox {
+  width: 100%;
+}
+.splreq {
+    padding: .5rem;
+    top: 30%;
+    left: 1.5%;
+    transform: translateY(-50%);
+}
+.focus .splreq{
+    top: 12%;
+}
+.specialRequestBox {
+    width: 98%;
+    height: 100px;
+    resize: none;
+}
+.bookNow {
+    width: 98%;
+    padding: 1.4rem 1.8rem;
+    border-radius: 10px;
+    margin: 0;
+}
+.bookNow:hover{
+    box-shadow: inset 800px 0 0 0 var(--bs-light);
+    color: var(--bs-primary);
+}
+/* booking section end */
