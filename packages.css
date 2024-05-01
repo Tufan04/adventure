@@ -8,9 +8,12 @@
 } */
 .imageBox{
     background-image: url(./images/image-3.jpg);
+    background-position: center;
+    transition:background-position 1s ;
+}
+.imageBox:hover{
     background-position: bottom;
 }
-
 /* package section start  */
 .packageContainer {
     width: 100%;

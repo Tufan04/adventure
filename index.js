@@ -4,9 +4,9 @@ class specialHeader extends HTMLElement {
         this.innerHTML = `
         <div class="navContainer">
         <div class="navBar">
-        <a href="./index.html" class="logo">Logo</a>
+        <a href="./index.html" class="logo"><i class="fa-solid fa-location-dot fa-bounce"></i> Toura</a>
             <div class="navMenu">
-                <a href="./index.html" class="navItem active">Home</a>
+                <a href="./index.html" class="navItem">Home</a>
                 <a href="./about.html" class="navItem">About</a>
                 <a href="./services.html" class="navItem">Services</a>
                 <a href="./packages.html" class="navItem">Packages</a>
@@ -110,7 +110,7 @@ class specialAbout extends HTMLElement {
             <div class="aobutContent">
                 <div class="servicesBox aboutBox">
                     <h5 class="servicesTitle dash aboutTitle">ABOUT US</h5>
-                    <h1 class="servicesHradingTitle">Welcome to Travela</h1>
+                    <h1 class="servicesHradingTitle">Welcome to Toura</h1>
                     <p class="aboutPara">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolorum, doloribus sunt
                         dicta, officia voluptatibus libero necessitatibus natus impedit quam ullam assumenda? Id atque
@@ -128,25 +128,25 @@ class specialAbout extends HTMLElement {
                             </p>
                             <p class="aboutDetailsItem">
                                 <i class="fa-solid fa-arrow-right"></i>
-                                First Class Flights
+                                5 Star Accommodations
                             </p>
                             <p class="aboutDetailsItem">
                                 <i class="fa-solid fa-arrow-right"></i>
-                                First Class Flights
+                                150 Premium City Tours
                             </p>
                         </div>
                         <div class="right">
                             <p class="aboutDetailsItem">
                                 <i class="fa-solid fa-arrow-right"></i>
-                                First Class Flights
+                                Handpicked Hotels
                             </p>
                             <p class="aboutDetailsItem">
                                 <i class="fa-solid fa-arrow-right"></i>
-                                First Class Flights
+                                Latest Model Vehicles
                             </p>
                             <p class="aboutDetailsItem">
                                 <i class="fa-solid fa-arrow-right"></i>
-                                First Class Flights
+                                24/7 Service
                             </p>
                         </div>
                     </div>
